@@ -1,0 +1,12 @@
+# Core runtime dependencies
+discord.py>=2.4,<3
+aiosqlite>=0.20
+aiohttp>=3.9
+python-dotenv>=1.0
+
+# GitHub App authentication (RS256 installation tokens)
+PyJWT>=2.8
+cryptography>=42.0
+
+# Optional database backend (only needed when DATABASE_URL points at PostgreSQL)
+# asyncpg>=0.29
